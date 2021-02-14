@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+
+
+.SideBar {
+    height: 100%;
+    background-color:#24252A;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    position:fixed;
+    top:50px;
+    right:0px;
+    width:400px;
+
+}
+
+.header  {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.nav_links   li {
+    color:#fff;
+    margin:25px;
+    font-weight:500;
+    font-size: 36px;
+}
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li a{
+    transition:all 0.3s ease 0s;
+}
+
+.nav_links li a:hover,
+.nav_links li a:active{
+    color:#0088a9
+}
