@@ -56,3 +56,14 @@ button:hover{
     background-color: rgba(0,136,169,0.8);
 }
 
+@media (max-width:768px) {
+    .nav_linksChild{
+        display:none
+    }
+}
+
+@media (min-width:769px) {
+    .sideBarButtonBar{
+        display:none
+    }
+}

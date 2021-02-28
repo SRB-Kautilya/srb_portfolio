@@ -9,6 +9,7 @@ import SideBar from './components/NavBar/SideBar/SideBar';
 function App() {
   return (
     <div className="App">
+     
       <Container/>
     </div>
   );

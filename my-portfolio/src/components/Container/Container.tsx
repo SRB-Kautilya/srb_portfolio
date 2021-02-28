@@ -1,4 +1,8 @@
 import React from 'react';
+import About from '../About/About';
+import Backdrop from '../Backdrop/Backdrop';
+import Contact from '../Contact/Contact';
+import Experience from '../Experience/Experience';
 import Home from '../Home/Home';
 import NavBar from '../NavBar/NavBar';
 import SideBar from '../NavBar/SideBar/SideBar';
@@ -13,11 +17,19 @@ const Container: React.FC = () => {
    const sideBarShow =():void => {
     setSideBar(true)
 }
+
+const sideBarClose = () =>{
+  setSideBar(false)
+}
   return(
   <div className={styles.Container} data-testid="Container">
-    <NavBar sideBarShow={sideBarShow} />
-  {sideBar&&<SideBar />}  
+    <NavBar sideBarShow={sideBarShow}  />
+  <SideBar sideBar={sideBar} /> 
+  {sideBar && <Backdrop sideBarClose={sideBarClose} />}
     <Home />
+    <About />
+    <Experience />
+    <Contact/>
   </div>
 )};
 

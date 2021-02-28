@@ -1,7 +1,10 @@
 import React from 'react';
 import styles from './SideBarButton.module.css';
+interface SideBarButtonProps{
+    sideBarShow:any 
+  }
 
-const SideBarButton: React.FC = (sideBarShow) => {
+const SideBarButton: React.FC<SideBarButtonProps> = ({sideBarShow}) => {
 
     return(
     <button className={styles.togglebutton} onClick={sideBarShow}>

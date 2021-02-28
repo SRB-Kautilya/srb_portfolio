@@ -1,8 +1,20 @@
 import React from 'react';
 import styles from './SideBar.module.css';
 
-const SideBar: React.FC = () => (
-  <div className={styles.SideBar} data-testid="SideBar">
+interface sideBarProps{
+  sideBar:Boolean; 
+}
+
+const SideBar: React.FC<sideBarProps> = ({sideBar}) => {
+
+  let drawerClasses= [styles.SideBar]
+  if(sideBar){
+  drawerClasses= [styles.SideBar,styles.open]
+
+  }
+
+  return(
+  <div className={drawerClasses.join(' ')} data-testid="SideBar">
    <header className={styles.header}>
      <nav>
        <ul className={styles.nav_links}>
@@ -15,6 +27,6 @@ const SideBar: React.FC = () => (
      {/* <a className='cta'href=''><button>Contact</button></a> */}
    </header>
   </div>
-);
+)};
 
 export default SideBar;
