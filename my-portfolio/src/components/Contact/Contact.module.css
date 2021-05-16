@@ -20,7 +20,7 @@
 }
 
 .ContactTitle{
-    padding:0 15px;
+    padding:0 15px; 
     flex:0 0 100%;
     text-align: center;
     margin-bottom: 60px;
@@ -42,7 +42,7 @@
 }
 
 .btn1{
-    padding:10px 25px;font-size:16px;font-weight: 500;color:rgb(135, 235, 135);
+    padding:10px 25px;font-size:16px;font-weight: 500;color:#ff8964;
     background-color: transparent;
     line-height: 1.5;
     cursor:pointer;

@@ -49,16 +49,13 @@
 
  .imgBox {
      /* background-color: red;  */
-    max-width: 425px;
+    max-width: 100%;
     /* display: block; */
     margin: auto;
     padding: 0px;
 } 
 
-.imgBox{
-    /* width:22rem; 
-    height: 21rem;     */
-}
+
 
 .aboutImage{
     flex:0 0 auto;
@@ -144,4 +141,39 @@
 
 .skillContainerItem{
     color:black
+}
+
+@media (max-width:768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .aboutSection .aboutImage{
+        /* background-color: RED; */
+        flex:0 0 40%;
+        padding:0 140px;
+    }
+
+    .aboutSection .aboutInfo {
+        /* background-color: blue; */
+        flex: 0 0 60%;
+        padding: 0 15px;
+        max-width: inherit;
+    }
+
+    .aboutSection .aboutInfo {
+        margin-top: 21px;
+
+    }
+
+    .aboutSection .aboutImage{
+        /* background-color: RED; */
+        flex:0 0 40%;
+        padding:0 15px; 
+    }
+
+
+
+
 }

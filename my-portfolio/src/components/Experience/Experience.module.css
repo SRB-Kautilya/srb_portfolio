@@ -129,3 +129,53 @@ background-color:#dddddd;
     margin: 0 0 10px;
     text-transform: capitalize;
 }
+
+
+@media (max-width:768px) {
+    .timeLine:before{
+        content: '';
+        width: 1px;
+        height:39rem;
+        left:6%;
+        position: absolute;
+        background-color:#dddddd;      
+        }
+
+        .timeLine .timeLineItem:nth-child(odd) svg{
+            left: -74px;
+        }
+
+        .timeLine .timeLineItem:nth-child(even) svg{
+            right: -340px;
+        }
+
+        .timeLine .timeLineItem:nth-child(odd) .timeLineItemInner:before{
+            left: -34px;
+        
+        }
+        
+        .timeLine .timeLineItem:nth-child(even) .timeLineItemInner:before{
+            right: -340px;
+        
+        }
+
+        .timeLine .timeLineItem .timeLineItemInner:before{
+            content:'';
+            width: 30px;
+            height: 1px;
+            position: absolute;
+            background-color:#000;
+            top:37px;
+        
+        }
+
+        .timeLine .timeLineItem:nth-child(odd){
+            padding-right: 0px;
+            text-align: left;
+        }
+        .timeLine .timeLineItem:nth-child(even){
+            padding-left: 0px;
+        }
+
+
+}

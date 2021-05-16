@@ -10,6 +10,8 @@ const About: React.FC = () => {
   let img = [styles.imgBox, styles.outerShadow]
   let socialLinkIcons = [styles.outerShadow, styles.hoverInShadow, styles.socialIcon]
 
+  console.log('about.join',styles)
+
   return (
     <div className={about.join(' ')} data-testid="About">
       <div className={styles.container}>
@@ -39,9 +41,12 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className={styles.aboutInfo}>
-            <p><span>Hi! My Name is Shashank</span>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century
-           who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
+            <p><span>Hi! My Name is Shashank,</span> I have four (4) years of experience in analysis, 
+            design, development, testing and implementation expertise in internet and client/server applications.
+            Inspired JavaScript developer and highly passionate and curious about new Front-End development technologies
+            and has ability in mastering them with a keen awareness of new industry developments.
+
+
          </p>
          <ul>
             <div className={styles.skillContainer}>

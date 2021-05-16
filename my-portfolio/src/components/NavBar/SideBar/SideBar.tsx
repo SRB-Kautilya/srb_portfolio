@@ -5,7 +5,7 @@ interface sideBarProps{
   sideBar:Boolean; 
 }
 
-const SideBar: React.FC<sideBarProps> = ({sideBar}) => {
+const SideBar: React.FC<sideBarProps> = ({sideBar}) => { 
 
   let drawerClasses= [styles.SideBar]
   if(sideBar){

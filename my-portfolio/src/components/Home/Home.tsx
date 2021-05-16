@@ -19,7 +19,7 @@ const Home: React.FC = () => {
 
     <section className={homeSection.join(' ')} >
       <div className={styles.effectWrap}>
-      <div className={effectDiv.join(' ')}>
+      <div className={effectDiv.join(' ')}> 
        </div>   
        <div className={effectDiv2.join(' ')}>
          <div /> <div /> <div /> <div /> <div /> <div /> <div /> <div /> <div /> <div /> <div /> <div /> <div /> <div /> <div />

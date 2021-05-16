@@ -51,7 +51,7 @@
     0%,100%{
         transform: translateY(0)
     }
-    50%{
+    50%{ 
         transform: translateY(25px);
     }
 }
@@ -125,7 +125,7 @@
 .homeSection .homeImg{
     flex:0 0 50%;
     max-width:50%;
-    padding:0 53px
+    padding:0 180px
 }
 .homeSection .homeText p{
     color:black;
@@ -180,4 +180,53 @@
 
 .hover-in-shadow:hover{
     box-shadow: var(--outer-shadow-0);
+}
+
+
+@media (max-width:768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homeSection .homeText,
+    .homeSection .homeImg{
+    flex:0 0 50%;
+    padding:0 180px;
+
+}
+.homeSection .homeText,
+.homeSection .homeImg{
+    flex:0 0 50%;
+    max-width:inherit;
+    padding:0 180px;
+    margin-right: 9px;
+}
+
+.effect4{
+    /* border-top: 30px solid transparent;
+    border-left:30px solid #06d79c ; 
+     border-top: 30px solid red;
+    border-bottom: 30px solid red;
+    border-left: 30px solid #06d79c;
+    border-right: 30px solid #06d79c;
+    left: 10%;
+    top: 33%;
+    animation:spin 15s linear infinite */
+    display: none;
+}
+
+.homeSection .homeImg .imgBox {
+    width: 346px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 29px;
+}
+}
+
+@media (min-width:769px) {
+    .sideBarButtonBar{
+        display:none
+    }
 }
