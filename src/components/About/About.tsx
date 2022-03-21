@@ -41,7 +41,7 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className={styles.aboutInfo}>
-            <p><span>Hi! My Name is Shashank,</span> I have four (4) years of experience in analysis, 
+            <p><span></span> I have four (4) years of experience in analysis, 
             design, development, testing and implementation expertise in internet and client/server applications.
             Inspired JavaScript developer and highly passionate and curious about new Front-End development technologies
             and has ability in mastering them with a keen awareness of new industry developments.
@@ -51,7 +51,7 @@ const About: React.FC = () => {
          <ul>
             <div className={styles.skillContainer}>
                 <li className={styles.skillContainerItem}> Javascript(Es6+)</li>
-                <li className={styles.skillContainerItem}> HTML & CSS</li>
+                <li className={styles.skillContainerItem}> HTML5 & CSS3</li>
                 <li className={styles.skillContainerItem}>Angular </li>
                 <li className={styles.skillContainerItem}>React </li>
                 <li className={styles.skillContainerItem}>Typescript</li>

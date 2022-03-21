@@ -38,7 +38,7 @@ const Home: React.FC = () => {
         <div className={styles.homeText}>
           <p>Hello</p>
           <h2>I'm Shashank</h2>
-          <h1>FullStack Developer</h1>
+          <h1>FrontEnd Developer  </h1>
         </div>
         <div className={styles.homeImg}>
           <div className={imgDiv.join(' ')}>

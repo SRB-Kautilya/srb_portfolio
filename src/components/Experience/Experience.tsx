@@ -19,25 +19,7 @@ const Experience: React.FC = () => {
                 <div className={styles.timeLineItem}>
                   <div className={eachItem.join(' ')}>
                   <FontAwesomeIcon icon={faBriefcase} />
-                  <span> Dec 28 - Present</span>
-                  <h3> Full Stack Developer</h3>
-                  <h4>StateFarm, IL</h4>
-                  <p></p>
-                  </div>
-                </div>
-                <div className={styles.timeLineItem}>
-                  <div className={eachItem.join(' ')}>
-                  <FontAwesomeIcon icon={faBriefcase} />
-                  <span> feb  2019- DEC 2019</span>
-                  <h3> Ftont End Developer</h3>
-                  <h4>Morgan Stanley, NY</h4>
-                  <p></p>
-                  </div>
-                </div>
-                <div className={styles.timeLineItem}>
-                  <div className={eachItem.join(' ')}>
-                  <FontAwesomeIcon icon={faBriefcase} />
-                  <span> Jan 2019 - June 2019</span>
+                  <span> Dec 19 - Present</span>
                   <h3> FrontEnd Developer</h3>
                   <h4>StateFarm, IL</h4>
                   <p></p>
@@ -46,7 +28,25 @@ const Experience: React.FC = () => {
                 <div className={styles.timeLineItem}>
                   <div className={eachItem.join(' ')}>
                   <FontAwesomeIcon icon={faBriefcase} />
-                  <span> Dec 2015 - July 2018 </span>
+                  <span> Jan  2019- DEC 2019</span>
+                  <h3> FrontEnd Developer</h3>
+                  <h4>Morgan Stanley, NY</h4>
+                  <p></p>
+                  </div>
+                </div>
+                <div className={styles.timeLineItem}>
+                  <div className={eachItem.join(' ')}>
+                  <FontAwesomeIcon icon={faBriefcase} />
+                  <span> Jan 2018 - Oct 2018</span>
+                  <h3> FrontEnd Developer</h3>
+                  <h4>Abbvie, IL</h4>
+                  <p></p>
+                  </div>
+                </div>
+                <div className={styles.timeLineItem}>
+                  <div className={eachItem.join(' ')}>
+                  <FontAwesomeIcon icon={faBriefcase} />
+                  <span> Dec 2015 - Apr 2017 </span>
                   <h3> Research Assistant</h3>
                   <h4>CUNY, NY</h4>
                   <p></p>
