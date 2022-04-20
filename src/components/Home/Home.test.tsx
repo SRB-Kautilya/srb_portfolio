@@ -9,6 +9,6 @@ describe('<Home />', () => {
     
     const home = screen.getByTestId('Home');
 
-    expect(home).toBeInTheDocument();
+    expect(home).toBeInTheDocument(); 
   });
 });
