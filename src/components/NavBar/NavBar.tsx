@@ -40,7 +40,7 @@ const NavBar: React.FC<navBarProps> = ({sideBarShow}) => {
 
   return(
     <div>
-  <div className={styles.NavBar} data-testid="NavBar">
+  <div className={styles.NavBar} data-testid="NavBar"> 
  
    <header className={styles.header}>
    <h1 className={styles.logo}>SRBPortfolio</h1>

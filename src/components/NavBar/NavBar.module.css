@@ -11,7 +11,10 @@ li,a,button,h1{
 }
 
 .NavBar{
-    background-color:#24252A
+    background-color:#24252A;
+    position:fixed;
+    width:100%;
+    z-index:800;
 }
 
 .header{

@@ -15,16 +15,16 @@ const Container: React.FC = () => {
   const [sideBar, setSideBar] = React.useState(false)
 
    const sideBarShow =():void => {
-    setSideBar(true)
+    setSideBar(!sideBar)
 }
 
 const sideBarClose = () =>{
-  setSideBar(false)
+  setSideBar(!sideBar)
 }
   return(
   <div className={styles.Container} data-testid="Container">
     <NavBar sideBarShow={sideBarShow}  />
-  <SideBar sideBar={sideBar} /> 
+  <SideBar sideBar={sideBar} sideBarShow ={sideBarShow} /> 
   {sideBar && <Backdrop sideBarClose={sideBarClose} />}
     <Home />
     <About />
