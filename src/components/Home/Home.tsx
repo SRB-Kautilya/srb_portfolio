@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-import image from '../../assets/cut-1.png'
+import image from '../../assets/shashank-photo.jpeg'
 //import image from '../../logo.svg'
 
 

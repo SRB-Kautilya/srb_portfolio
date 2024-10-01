@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './About.module.css';
-import image from '../../assets/cut-1.png'
+import image from '../../assets/shashank-photo.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faFacebookSquare, faInstagram, faLinkedin, faTwitter, } from '@fortawesome/free-brands-svg-icons';
 
@@ -41,7 +41,7 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className={styles.aboutInfo}>
-            <p><span></span> I have four (4) years of experience in analysis, 
+            <p><span></span> I have seven (7) years of experience in analysis, 
             design, development, testing and implementation expertise in internet and client/server applications.
             Inspired JavaScript developer and highly passionate and curious about new Front-End development technologies
             and has ability in mastering them with a keen awareness of new industry developments.
